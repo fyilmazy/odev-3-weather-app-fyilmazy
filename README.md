@@ -1,6 +1,6 @@
 # Weather App with React
 
-[Click to Visit Live Preview Page](http://handlebarsjs.com/)  
+[Click to Visit Live Preview Page](https://fyilmazf-weather-app.netlify.app/)  
 
 # Screenshot:  
 <img src="img/screenshot.png">
