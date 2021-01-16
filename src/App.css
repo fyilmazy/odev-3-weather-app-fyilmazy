@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.today.forecast {
+  color: black;
+  background: linear-gradient(
+    90deg,
+    rgba(145, 234, 228, 1) 0%,
+    rgba(134, 168, 231, 1) 50%,
+    rgba(127, 127, 213, 1) 100%
+  );
+}
+#day-submain:nth-child(even) {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+.forecast {
+  background-color: aqua;
+}
+
+.day {
+  background-color: rgb(10, 92, 245);
+}
+
+footer .h5 a {
+  color: blue;
+  text-decoration: none;
+}
+h5 {
+  margin: 0;
+  padding: 10px 0;
+  color: black;
+}
+.day-submain {
+  border-bottom: black 2px solid;
+}
+
+.forecast-header {
+  background-color: rgba(124, 248, 0, 0.486);
+}
+
+.day {
+  background: linear-gradient(
+    90deg,
+    rgba(145, 234, 228, 1) 0%,
+    rgba(134, 168, 231, 1) 50%,
+    rgba(127, 127, 213, 1) 100%
+  );
+}
