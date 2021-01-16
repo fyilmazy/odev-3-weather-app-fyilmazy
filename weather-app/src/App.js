@@ -1,20 +1,15 @@
-import { useState } from "react";
-import axios from "axios";
 import "./App.css";
-import CitySelector from "./components/CitySelector";
+
+import Main from "./components/Main";
+import { ForecastProvider } from "./components/context/ForecastContext";
 
 function App() {
-  const [city, setCity] = useState("istanbul");
-
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <form>
-        <label htmlFor="cities">City: </label>
-        <CitySelector city={city} setCity={setCity} />
-      </form>
+      <ForecastProvider>
+        <Main />
+      </ForecastProvider>
     </div>
   );
 }
-
 export default App;
